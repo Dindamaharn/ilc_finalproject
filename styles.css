@@ -1,0 +1,57 @@
+body {
+    background-color: #f8edeb; /* Warna latar belakang */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; /* Warna latar konten */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #d90429; /* Warna judul */
+  }
+  
+  .form-group label {
+    color: #d90429; /* Warna label form */
+  }
+  
+  .btn-primary {
+    background-color: #e63946; /* Warna tombol utama */
+    border-color: #e63946;
+  }
+  
+  .list-group-item {
+    background-color: #f8edeb; /* Warna latar daftar buku */
+    border-color: #f8edeb;
+  }
+  
+  .list-group-item span {
+    color: #d90429; /* Warna teks buku */
+  }
+  
+  .form-group input,
+  .form-group button {
+    color: #e63946; /* Warna teks input dan tombol */
+  }
+  
+  /* Warna teks pada tombol ketika dihover */
+  .btn-primary:hover {
+    background-color: #e94e77;
+    border-color: #e94e77;
+  }
+  
+  /* Warna teks pada tombol ketika diaktifkan */
+  .btn-primary:active {
+    background-color: #e94e77;
+    border-color: #e94e77;
+  }
+  
+  /* Warna teks pada tombol ketika dihover */
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(230, 57, 70, 0.5);
+  }
+  

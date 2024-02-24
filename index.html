@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Bookshelf App</title>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1 class="mb-4">Bookshelf App</h1>
+
+    <!-- Form to Add Book -->
+    <form id="addBookForm" class="mb-3">
+      <div class="form-group">
+        <label for="bookTitle">Title:</label>
+        <input type="text" class="form-control" id="bookTitle" required>
+      </div>
+      <div class="form-group">
+        <label for="bookAuthor">Author:</label>
+        <input type="text" class="form-control" id="bookAuthor" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Book</button>
+    </form>
+
+    <!-- Book List -->
+    <ul id="bookList" class="list-group">
+      <!-- Book items will be dynamically added here -->
+    </ul>
+  </div>
+    <!-- Form to Add Book -->
+<form id="addBookForm" class="mb-3">
+    <!-- ... (form fields) ... -->
+    <button type="submit" class="btn btn-primary">Add Book</button>
+  </form>
+  
+  <!-- Search Input -->
+  <div class="form-group">
+    <label for="searchBooks">Search Books:</label>
+    <input type="text" class="form-control" id="searchBooks">
+  </div>
+  
+  <!-- Book List -->
+  <ul id="bookList" class="list-group">
+    <!-- Book items will be dynamically added here -->
+  </ul>
+  
+  <script src="main.js"></script>
+</body>
+</html>
